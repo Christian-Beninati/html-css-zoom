@@ -42,6 +42,7 @@ footer {
 main {
     height: calc(100vh - 160px);
     overflow: auto;
+    padding: 20px 0;
 }
 
 .d-flex {
@@ -52,7 +53,31 @@ main {
     border: 2px dashed rgb(23, 9, 226);
 }
 
+.nav-header > .button {
+    background-color: var(--bgd-grey);
+    border-radius: 10px;
+    padding: 4px;
+    margin: 5px;
+    font-size: 14px;
+}
+
+a, i {
+   text-decoration: none;
+   color: var(--font-white);
+   padding: 2px;
+}
+
+/* header*/
+.nav-header {
+    justify-content: end;
+}
+
+
+
+
+
 /* main */
- .row {
-   
- }
+ /* .card {
+    flex-wrap: wrap;
+ } */
+
