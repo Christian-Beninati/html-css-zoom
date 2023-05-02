@@ -9,6 +9,7 @@
 /* custom properties */
 :root {
     --bgd-header: #000000;
+    --bgd-main: #000000;
     --bgd-footer: #222222;
     --bgd-grey: #4A4A4A;
     --font-white: #FFFFFF;
@@ -22,11 +23,6 @@ body{
 }
 
 /* utilities */
-.container {
-    max-width: 1700px;
-    margin: 0 auto;
-}
-
 header, footer {
     height: 80px;
 }
@@ -43,6 +39,7 @@ main {
     height: calc(100vh - 160px);
     overflow: auto;
     padding: 20px 0;
+    background-color: var(--bgd-main);
 }
 
 .d-flex {
@@ -72,12 +69,26 @@ a, i {
     justify-content: end;
 }
 
-
-
-
-
 /* main */
- /* .card {
+ .row {
     flex-wrap: wrap;
- } */
+    justify-content: center;
+ }
+
+ .card-image {
+     position: relative;
+     padding: 5px 2px;
+ }
+
+ .name {
+    position: absolute;
+    bottom: 8px;
+    left: 2;
+    color: var(--font-white);
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+ }
+
+
+
 
