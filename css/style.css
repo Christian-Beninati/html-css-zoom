@@ -64,6 +64,14 @@ a, i {
    padding: 2px;
 }
 
+.name, p {
+    cursor: pointer;
+}
+
+i:hover, p:hover, .name:hover {
+    color: var(--share-scr-color);
+}
+
 /* header*/
 .nav-header {
     justify-content: end;
@@ -87,7 +95,6 @@ a, i {
     color: var(--font-white);
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
-    cursor: pointer;
  }
 
 /* footer */
