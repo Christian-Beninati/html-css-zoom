@@ -1,0 +1,26 @@
+/* css reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* custom properties */
+:root {
+    --bgd-header: # ;
+    --bgd-footer: # ;
+    --font-white: # ;
+    --font-small: px;
+}
+
+/* generics */
+body{
+    font-family: sans-serif;
+}
+
+header {
+   
+}
+
+/* utilities */
