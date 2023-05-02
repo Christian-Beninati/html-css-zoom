@@ -83,7 +83,7 @@ a, i {
  .name {
     position: absolute;
     bottom: 8px;
-    left: 2;
+    left: 2px;
     color: var(--font-white);
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
