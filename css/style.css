@@ -8,10 +8,12 @@
 
 /* custom properties */
 :root {
-    --bgd-header: # ;
-    --bgd-footer: # ;
-    --font-white: # ;
-    --font-small: px;
+    --bgd-header: #000000;
+    --bgd-footer: #222222;
+    --bgd-grey: #4A4A4A;
+    --font-white: #FFFFFF;
+    --font-red: #F82639;
+    --share-scr-color: #4BC800;
 }
 
 /* generics */
@@ -19,8 +21,38 @@ body{
     font-family: sans-serif;
 }
 
-header {
-   
+/* utilities */
+.container {
+    max-width: 1700px;
+    margin: 0 auto;
 }
 
-/* utilities */
+header, footer {
+    height: 80px;
+}
+
+header{
+    background-color: var(--bgd-header);
+}
+
+footer {
+    background-color: var(--bgd-grey);
+}
+
+main {
+    height: calc(100vh - 160px);
+    overflow: auto;
+}
+
+.d-flex {
+    display: flex; 
+}
+
+.debug .border {
+    border: 2px dashed rgb(23, 9, 226);
+}
+
+/* main */
+ .row {
+   
+ }
